@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+.container {     
+    max-width: 500px;
+    min-width: 400px;
+    margin: 50px auto;
+    height: 180px;
+    padding: 20px;
+    border-radius: 15px;
+    background: hsla(208, 7%, 55%, 1);
+    background: radial-gradient(circle, hsla(208, 7%, 55%, 1) 0%, hsla(191, 5%, 40%, 1) 100%);
+}
+
+#res{
+    background: rgb(230,231,232);
+    background: radial-gradient(circle, rgba(230,231,232,1) 0%, rgba(180,177,179,1) 100%);
+    border-radius: 15px;
+    box-shadow:inset 0 0 2px gray;
+    height: 48px;
+    line-height: 48px;
+    text-indent: 10px;
+    width: 90%;
+    margin: 15px auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+#btns {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    gap: 8px;
+    margin: 25px;
+}
+.flex-line {
+    display: flex;
+    gap: 8px;
+}
+
+#btn0,
+#btn1 {
+    background-color: #353535;
+    color: white;
+}
+
+#btnClr,
+#btnEql {
+    background-color: #f4a261;
+    color: black;
+}
+
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+    background-color: #e63946;
+    color: black;
+}
+
+button {
+    width: 25%;
+    height: 36px;
+    font-size:18px;
+    float: left;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 5px  #212529;
+    font-family: 'Roboto Mono', monospace;
+}
